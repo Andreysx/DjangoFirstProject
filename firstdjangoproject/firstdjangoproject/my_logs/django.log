@@ -1,0 +1,186 @@
+INFO 2024-03-10 23:56:40,467 autoreload 2196 8540 Watching for file changes with StatReloader
+INFO 2024-03-10 23:56:55,481 basehttp 2196 15424 "GET / HTTP/1.1" 200 13
+WARNING 2024-03-10 23:56:58,284 log 2196 15424 Not Found: /docs
+WARNING 2024-03-10 23:56:58,285 basehttp 2196 15424 "GET /docs HTTP/1.1" 404 2539
+WARNING 2024-03-10 23:57:01,298 log 2196 15424 Not Found: /coin
+WARNING 2024-03-10 23:57:01,299 basehttp 2196 15424 "GET /coin HTTP/1.1" 404 2539
+INFO 2024-03-10 23:57:11,368 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:11,369 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:14,131 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:14,132 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:14,379 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:14,380 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:16,851 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:16,852 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:19,999 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:20,000 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:23,020 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:23,021 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:23,257 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:23,257 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 10
+INFO 2024-03-10 23:57:25,143 views 2196 15424 Use oin funct
+INFO 2024-03-10 23:57:25,144 basehttp 2196 15424 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-10 23:57:32,471 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:32,471 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:33,045 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:33,046 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:35,201 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:35,202 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:35,395 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:35,396 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:37,344 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:37,345 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:38,479 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:38,480 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:39,380 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:39,381 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:40,002 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:40,002 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:40,546 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:40,547 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:42,189 views 2196 15424 Use dice funct
+INFO 2024-03-10 23:57:42,190 basehttp 2196 15424 "GET /semminar1/dice/ HTTP/1.1" 200 94
+INFO 2024-03-10 23:57:46,686 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:46,687 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:47,261 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:47,262 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:48,429 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:48,429 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:48,919 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:48,954 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:49,371 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:49,371 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:49,775 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:49,776 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:50,168 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:50,169 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 49
+INFO 2024-03-10 23:57:50,554 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:50,554 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:57:50,930 views 2196 15424 Use random_number funct
+INFO 2024-03-10 23:57:50,931 basehttp 2196 15424 "GET /semminar1/number/ HTTP/1.1" 200 50
+INFO 2024-03-10 23:59:58,055 autoreload 21108 12348 Watching for file changes with StatReloader
+INFO 2024-03-11 00:00:01,010 basehttp 21108 11168 "GET / HTTP/1.1" 200 13
+WARNING 2024-03-11 00:00:03,768 log 21108 11168 Not Found: /docs
+WARNING 2024-03-11 00:00:03,769 basehttp 21108 11168 "GET /docs HTTP/1.1" 404 2539
+INFO 2024-03-11 00:00:07,086 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:07,087 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 00:00:08,330 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:08,330 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 00:00:08,721 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:08,721 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 00:00:09,123 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:09,124 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 00:00:09,548 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:09,548 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 00:00:09,964 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:09,965 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 00:00:10,407 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:10,408 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 00:00:11,016 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:11,016 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 00:00:11,808 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:11,809 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 10
+INFO 2024-03-11 00:00:14,880 views 21108 11168 Use oin funct
+INFO 2024-03-11 00:00:14,880 basehttp 21108 11168 "GET /semminar1/coin/ HTTP/1.1" 200 8
+INFO 2024-03-11 00:04:16,117 autoreload 14472 19524 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:04:19,366 log 14472 14460 Not Found: /
+WARNING 2024-03-11 00:04:19,368 basehttp 14472 14460 "GET / HTTP/1.1" 404 2286
+INFO 2024-03-11 00:04:25,325 basehttp 14472 14460 "GET /myapp HTTP/1.1" 200 13
+WARNING 2024-03-11 00:04:30,819 log 14472 14460 Not Found: /myapp/about
+WARNING 2024-03-11 00:04:30,819 basehttp 14472 14460 "GET /myapp/about HTTP/1.1" 404 2570
+INFO 2024-03-11 00:05:49,103 autoreload 18412 2640 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:05:50,926 log 18412 20384 Not Found: /
+WARNING 2024-03-11 00:05:50,927 basehttp 18412 20384 "GET / HTTP/1.1" 404 2286
+WARNING 2024-03-11 00:06:00,730 log 18412 20384 Not Found: /
+WARNING 2024-03-11 00:06:00,731 basehttp 18412 20384 "GET / HTTP/1.1" 404 2286
+INFO 2024-03-11 00:06:01,071 autoreload 18412 2640 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\firstdjangoproject\urls.py changed, reloading.
+INFO 2024-03-11 00:06:01,616 autoreload 12448 16816 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:06:03,994 log 12448 13000 Not Found: /docs
+WARNING 2024-03-11 00:06:03,995 basehttp 12448 13000 "GET /docs HTTP/1.1" 404 2317
+INFO 2024-03-11 00:06:06,314 basehttp 12448 13000 "GET /myapp HTTP/1.1" 301 0
+INFO 2024-03-11 00:06:06,318 basehttp 12448 22180 "GET /myapp/ HTTP/1.1" 200 13
+INFO 2024-03-11 00:06:11,138 basehttp 12448 22180 "GET /myapp/about HTTP/1.1" 301 0
+INFO 2024-03-11 00:06:11,147 basehttp 12448 15792 "GET /myapp/about/ HTTP/1.1" 200 8
+INFO 2024-03-11 00:08:47,050 autoreload 21516 11840 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:08:48,472 log 21516 736 Not Found: /
+WARNING 2024-03-11 00:08:48,475 basehttp 21516 736 "GET / HTTP/1.1" 404 2287
+WARNING 2024-03-11 00:08:51,107 log 21516 736 Not Found: /docs
+WARNING 2024-03-11 00:08:51,107 basehttp 21516 736 "GET /docs HTTP/1.1" 404 2317
+WARNING 2024-03-11 00:09:01,685 log 21516 736 Not Found: /myapp/render
+WARNING 2024-03-11 00:09:01,686 basehttp 21516 736 "GET /myapp/render HTTP/1.1" 404 2575
+WARNING 2024-03-11 00:09:37,065 log 21516 736 Not Found: /myapp/render
+WARNING 2024-03-11 00:09:37,069 basehttp 21516 736 "GET /myapp/render HTTP/1.1" 404 2575
+INFO 2024-03-11 00:09:37,359 autoreload 21516 11840 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\urls.py changed, reloading.
+INFO 2024-03-11 00:09:38,048 autoreload 7904 15988 Watching for file changes with StatReloader
+INFO 2024-03-11 00:09:39,344 basehttp 7904 2456 "GET /myapp/render HTTP/1.1" 301 0
+INFO 2024-03-11 00:09:39,347 basehttp 7904 11104 "GET /myapp/render/ HTTP/1.1" 200 168
+INFO 2024-03-11 00:12:13,277 autoreload 22360 14436 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:12:15,750 log 22360 14704 Not Found: /
+WARNING 2024-03-11 00:12:15,762 basehttp 22360 14704 "GET / HTTP/1.1" 404 2287
+INFO 2024-03-11 00:12:19,513 basehttp 22360 14704 "GET /myapp/ HTTP/1.1" 200 13
+INFO 2024-03-11 00:12:24,366 basehttp 22360 14704 "GET /myapp/render/ HTTP/1.1" 200 402
+INFO 2024-03-11 00:12:35,400 basehttp 22360 14704 "GET /myapp/render/ HTTP/1.1" 200 402
+INFO 2024-03-11 00:13:05,469 autoreload 22360 14436 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:13:06,263 autoreload 8640 15452 Watching for file changes with StatReloader
+INFO 2024-03-11 00:13:09,272 basehttp 8640 10420 "GET /myapp/render/ HTTP/1.1" 200 406
+INFO 2024-03-11 00:13:11,399 basehttp 8640 10420 "GET /myapp/render/ HTTP/1.1" 200 406
+INFO 2024-03-11 00:13:12,758 basehttp 8640 10420 "GET /myapp/render/ HTTP/1.1" 200 406
+INFO 2024-03-11 00:13:13,582 basehttp 8640 10420 "GET /myapp/render/ HTTP/1.1" 200 406
+INFO 2024-03-11 00:13:18,964 basehttp 8640 10420 "GET /myapp/render/ HTTP/1.1" 200 406
+INFO 2024-03-11 00:14:12,136 autoreload 19204 20344 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:14:13,336 log 19204 3736 Not Found: /
+WARNING 2024-03-11 00:14:13,337 basehttp 19204 3736 "GET / HTTP/1.1" 404 2287
+INFO 2024-03-11 00:14:24,410 basehttp 19204 3736 "GET /myapp/render/ HTTP/1.1" 200 414
+INFO 2024-03-11 00:14:38,153 basehttp 19204 3736 "GET /myapp/render/ HTTP/1.1" 200 414
+INFO 2024-03-11 00:14:38,411 autoreload 19204 20344 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:14:39,025 autoreload 9064 10620 Watching for file changes with StatReloader
+INFO 2024-03-11 00:14:40,403 basehttp 9064 5316 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:15:05,149 basehttp 9064 5316 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:15:05,405 autoreload 9064 10620 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:15:05,938 autoreload 6992 20132 Watching for file changes with StatReloader
+INFO 2024-03-11 00:15:06,755 basehttp 6992 19864 "GET /myapp/render/ HTTP/1.1" 200 205
+INFO 2024-03-11 00:15:07,496 basehttp 6992 19864 "GET /myapp/render/ HTTP/1.1" 200 205
+INFO 2024-03-11 00:15:08,124 basehttp 6992 19864 "GET /myapp/render/ HTTP/1.1" 200 205
+INFO 2024-03-11 00:15:30,022 autoreload 6992 20132 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:15:30,625 autoreload 12348 11820 Watching for file changes with StatReloader
+INFO 2024-03-11 00:15:36,485 basehttp 12348 10232 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:15:38,006 basehttp 12348 10232 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:16:06,050 autoreload 6532 4768 Watching for file changes with StatReloader
+INFO 2024-03-11 00:16:09,518 basehttp 6532 6700 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:16:11,200 basehttp 6532 6700 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:16:11,753 basehttp 6532 6700 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:16:11,915 basehttp 6532 6700 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:16:12,043 basehttp 6532 6700 "GET /myapp/render/ HTTP/1.1" 200 204
+INFO 2024-03-11 00:16:30,376 autoreload 6532 4768 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:16:31,063 autoreload 15988 21372 Watching for file changes with StatReloader
+INFO 2024-03-11 00:17:21,957 autoreload 15988 21372 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:17:22,627 autoreload 3664 7784 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:17:23,895 log 3664 14576 Not Found: /
+WARNING 2024-03-11 00:17:23,899 basehttp 3664 14576 "GET / HTTP/1.1" 404 2287
+INFO 2024-03-11 00:17:32,512 basehttp 3664 14576 "GET /myapp/render/ HTTP/1.1" 200 204
+WARNING 2024-03-11 00:17:33,932 log 3664 14576 Not Found: /myapp/render/about
+WARNING 2024-03-11 00:17:33,933 basehttp 3664 14576 "GET /myapp/render/about HTTP/1.1" 404 2767
+INFO 2024-03-11 00:24:02,629 autoreload 20876 20300 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:24:03,894 log 20876 16032 Not Found: /
+WARNING 2024-03-11 00:24:03,895 basehttp 20876 16032 "GET / HTTP/1.1" 404 2287
+WARNING 2024-03-11 00:24:16,126 log 20876 16032 Not Found: /docs
+WARNING 2024-03-11 00:24:16,127 basehttp 20876 16032 "GET /docs HTTP/1.1" 404 2317
+INFO 2024-03-11 00:24:22,978 basehttp 20876 16032 "GET /myapp/render/ HTTP/1.1" 200 204
+WARNING 2024-03-11 00:24:24,643 log 20876 16032 Not Found: /myapp/render/about
+WARNING 2024-03-11 00:24:24,645 basehttp 20876 16032 "GET /myapp/render/about HTTP/1.1" 404 2767
+WARNING 2024-03-11 00:25:11,806 log 20876 16032 Not Found: /myapp/render/about
+WARNING 2024-03-11 00:25:11,808 basehttp 20876 16032 "GET /myapp/render/about HTTP/1.1" 404 2767
+INFO 2024-03-11 00:25:44,665 basehttp 20876 16032 "GET /myapp/render/ HTTP/1.1" 200 204
+WARNING 2024-03-11 00:25:46,387 log 20876 16032 Not Found: /myapp/render/about
+WARNING 2024-03-11 00:25:46,390 basehttp 20876 16032 "GET /myapp/render/about HTTP/1.1" 404 2767
+WARNING 2024-03-11 00:25:52,706 log 20876 16032 Not Found: /myapp/render/about
+WARNING 2024-03-11 00:25:52,707 basehttp 20876 16032 "GET /myapp/render/about HTTP/1.1" 404 2767
+WARNING 2024-03-11 00:26:38,646 log 20876 16032 Not Found: /myapp/render/about
+WARNING 2024-03-11 00:26:38,647 basehttp 20876 16032 "GET /myapp/render/about HTTP/1.1" 404 2767
+INFO 2024-03-11 00:26:38,814 autoreload 20876 20300 E:\EDUCATION+WORK\GEEKBRAINS\Фреймворк Django\Django_first_project\firstdjangoproject\myapp\views.py changed, reloading.
+INFO 2024-03-11 00:26:39,422 autoreload 7448 8604 Watching for file changes with StatReloader
+INFO 2024-03-11 00:31:05,708 autoreload 13856 5580 Watching for file changes with StatReloader
+WARNING 2024-03-11 00:31:08,868 log 13856 17512 Not Found: /
+WARNING 2024-03-11 00:31:08,871 basehttp 13856 17512 "GET / HTTP/1.1" 404 2287
+INFO 2024-03-11 00:31:18,706 basehttp 13856 17512 "GET /myapp/ HTTP/1.1" 200 264
+INFO 2024-03-11 00:31:19,817 basehttp 13856 17512 "GET /myapp/about/ HTTP/1.1" 200 8
