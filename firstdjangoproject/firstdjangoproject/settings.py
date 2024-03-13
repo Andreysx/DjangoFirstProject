@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-f9#$sfn&p)%qo5z57jvtx_xf_=g)=glf#2tfhej=^24%)q(vil
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.34', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp',
     'semminar_1app',
+    'lection2',
 ]
 
 MIDDLEWARE = [
