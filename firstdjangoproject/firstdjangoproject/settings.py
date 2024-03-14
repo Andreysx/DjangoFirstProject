@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'myapp',
     'semminar_1app',
     'lection2',
+    'semminar2',
+    'hwapp',
 ]
 
 MIDDLEWARE = [

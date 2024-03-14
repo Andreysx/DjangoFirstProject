@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from random import random, randint, choice
 import logging
+from .models import CoinFlip
 
 # Задание №5
 # � Создайте новое приложение. Подключите его к проекту. В
@@ -20,12 +21,21 @@ def index(request):
     return HttpResponse("Hello, world!")
 
 
-def coin(request):
-    logger.info("Use coin funct")
-    side = choice(['Орел', 'Решка'])
-    logger.debug(side)
-    return HttpResponse(side)
-
+# def coin(request, amount_flips):
+#     logger.info("Use coin funct")
+#     side = choice(['Орел', 'Решка'])
+#     logger.debug(side)
+#     return HttpResponse(side)
+def coin(request, amount_flips):
+    result = choice(('Head', 'Tails'))
+    logger.info(result)
+    CoinFlip(side=result).save()
+    last_results = CoinFlip.get_last_flips(amount_flips)
+    context = {
+        'current_flip': result,
+        'last_results': last_results
+        }
+    return render(request, 'coin/coin.html', context)
 
 def dice(request):
     logger.info("Use dice funct")
