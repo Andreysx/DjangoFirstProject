@@ -9,7 +9,7 @@ class Author(models.Model):
     email = models.EmailField()
     lastname = models.CharField(max_length=100)
     biography = models.TextField
-    date_of_birth = models.DateTimeField()
+    date_of_birth = models.DateTimeField(auto_now_add=True)
 
     @property
     def full_name(self):

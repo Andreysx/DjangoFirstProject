@@ -21,33 +21,53 @@ def index(request):
     return HttpResponse("Hello, world!")
 
 
+
 # def coin(request, amount_flips):
-#     logger.info("Use coin funct")
-#     side = choice(['Орел', 'Решка'])
-#     logger.debug(side)
-#     return HttpResponse(side)
+#     result = choice(('Head', 'Tails'))
+#     logger.info(result)
+#     CoinFlip(side=result).save()
+#     last_results = CoinFlip.get_last_flips(amount_flips)
+#     context = {
+#         'current_flip': result,
+#         'last_results': last_results
+#         }
+#     return render(request, 'coin/coin.html', context)
+#
+# def dice(request):
+#     logger.info("Use dice funct")
+#     count = randint(1, 6)
+#     logger.debug(count)
+#     return HttpResponse(f"Значение одной из шести граней игрального кубика = {count}")
+#
+#
+# def random_number(request):
+#     logger.info("Use random_number funct")
+#     number = randint(1, 100)
+#     logger.debug(number)
+#     return HttpResponse(f"Случайное число от 0 до 100 = {number}")
+
+
 def coin(request, amount_flips):
-    result = choice(('Head', 'Tails'))
-    logger.info(result)
-    CoinFlip(side=result).save()
-    last_results = CoinFlip.get_last_flips(amount_flips)
+    # logger.info(result)
+    #
+    results = [choice(('Head', 'Tails')) for _ in range(amount_flips)]
     context = {
-        'current_flip': result,
-        'last_results': last_results
+        'title': 'Монетка',
+        'results': results
         }
-    return render(request, 'coin/coin.html', context)
-
-def dice(request):
-    logger.info("Use dice funct")
-    count = randint(1, 6)
-    logger.debug(count)
-    return HttpResponse(f"Значение одной из шести граней игрального кубика = {count}")
+    return render(request, 'semminar_1app/result.html', context)
 
 
-def random_number(request):
-    logger.info("Use random_number funct")
-    number = randint(1, 100)
-    logger.debug(number)
-    return HttpResponse(f"Случайное число от 0 до 100 = {number}")
+def dice(request, amount_flips):
+    results = [randint(1, 6) for _ in range(amount_flips)]
+
+    # logger.debug(count)
+    context = {'title': 'Кости', 'results': results}
+    return render(request, 'semminar_1app/result.html', context)
 
 
+def random_number(request, amount_gens):
+    results = [randint(1, 100) for _ in range(amount_gens)]
+    # logger.debug(count)
+    context = {'title': 'Волшебная сотня', 'results': results}
+    return render(request, 'semminar_1app/result.html', context)

@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'myapp',
     'semminar_1app',
     'lection2',
-    'semminar2',
     'hwapp',
+    'semminar2'
 ]
 
 MIDDLEWARE = [
@@ -59,7 +59,9 @@ ROOT_URLCONF = 'firstdjangoproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
