@@ -58,5 +58,9 @@ class Order(models.Model):
     total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0)
     date_ordered = models.DateTimeField(auto_now_add=True)
 
+    def get_products(self):
+        products = self.products.name
+        return products
+
     def __str__(self):
         return f'Order was created at: {self.date_ordered}, Total price = {self.total_price}'
