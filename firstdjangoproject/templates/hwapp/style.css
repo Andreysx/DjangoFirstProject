@@ -1,0 +1,17 @@
+body {
+    /*  */
+    font-family: sans-serif;
+}
+
+.form{
+    /* Каскадность стилей в CSS с вложенными структурами */
+    width: 200px;
+    height: 30px;
+    outline: none;
+    /* Внешняя рамка пропадет */
+    border: 1px solid #ccc;
+    /*  */
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}

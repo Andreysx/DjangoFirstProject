@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -26,7 +25,6 @@ SECRET_KEY = 'django-insecure-f9#$sfn&p)%qo5z57jvtx_xf_=g)=glf#2tfhej=^24%)q(vil
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -76,7 +74,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'firstdjangoproject.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -86,7 +83,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -106,7 +102,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -118,57 +113,59 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 # Logging
 
 LOGGING = {
- 'version': 1,
- 'disable_existing_loggers': False,
- 'formatters': {
-    'verbose': {
-        'format': '{levelname} {asctime} {module} {process} {thread} {message}',
-        'style': '{',
-         },
-    'simple': {
-        'format': '%(levelname)s %(message)s'
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process} {thread} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
         },
     },
- 'handlers': {
-    'console': {
-        'class': 'logging.StreamHandler',
-        'formatter': 'verbose', # добавлен параметр formatter
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',  # добавлен параметр formatter
         },
-    'file': {
-        'class': 'logging.FileHandler',
-        'filename': 'firstdjangoproject/my_logs/django.log',
-        'formatter': 'verbose', # добавлен параметр formatter
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': 'firstdjangoproject/my_logs/django.log',
+            'formatter': 'verbose',  # добавлен параметр formatter
         },
     },
- 'loggers': {
-    'django': {
-        'handlers': ['console', 'file'],
-        'level': 'INFO',
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
         },
-    'myapp': {
-        'handlers': ['console', 'file'],
-        'level': 'DEBUG',
-        'propagate': True,
+        'myapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
         },
-    'semminar_1app': {
-        'handlers': ['file'],
-        'level': 'INFO',
-        'propagate': True,
+        'semminar_1app': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
         },
     },
 }
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media/'
