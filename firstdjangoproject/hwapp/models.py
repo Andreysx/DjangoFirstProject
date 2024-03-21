@@ -59,8 +59,59 @@ class Order(models.Model):
     date_ordered = models.DateTimeField(auto_now_add=True)
 
     def get_products(self):
-        products = self.products.name
+        products = self.products.all()
         return products
 
     def __str__(self):
         return f'Order was created at: {self.date_ordered}, Total price = {self.total_price}'
+
+
+
+
+
+
+
+
+# class Customer_hw(models.Model):
+#     name = models.CharField(max_length=25)
+#     email = models.EmailField()
+#     phone_number = models.CharField(max_length=11, blank=False)
+#     address = models.TextField(blank=False)
+#     created_at = models.DateTimeField(auto_now_add=True)
+#
+#     def __str__(self):
+#         return f'Customer name: {self.name}, Email: {self.email}, Phone number: {self.phone_number}, ' \
+#                f'Adress: {self.address}'
+#
+#
+# class Product_hw(models.Model):
+#     name = models.CharField(max_length=100)
+#     description = models.TextField()
+#     price = models.DecimalField(max_digits=9, decimal_places=2)
+#     quantity = models.IntegerField()
+#     created_at = models.DateTimeField(auto_now_add=True)
+#
+#     def __str__(self):
+#         return f'Product name: {self.name} \n Product price {self.price}, Price: {self.price}' \
+#                f'Quantity: {self.quantity}'
+#
+#
+#
+# class Order_hw(models.Model):
+#     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name='orders')
+#     total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0)
+#     date_ordered = models.DateTimeField(auto_now_add=True)
+#
+#     def __str__(self):
+#         return f'Order was created at: {self.date_ordered}, Total price = {self.total_price}'
+#
+#
+# class OrderProduct_hw(models.Model):
+#     order = models.ForeignKey(Order_hw, on_delete=models.CASCADE)
+#     product = models.ForeignKey(Product_hw, on_delete=models.CASCADE)
+#     amount = models.IntegerField()
+#     created_at = models.DateTimeField(auto_now_add=True)
+#
+#     def __str__(self):
+#         return f'Product: {self.product}, Amount: {self.amount}, Created: {self.created_at}'
+
