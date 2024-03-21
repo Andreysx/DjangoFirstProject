@@ -164,6 +164,11 @@ LOGGING = {
             'level': 'INFO',
             'propagate': True,
         },
+        'hwapp': {
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
     },
 }
 

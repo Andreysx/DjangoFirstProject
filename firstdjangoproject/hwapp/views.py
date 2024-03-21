@@ -4,7 +4,9 @@ from .models import Customer, Product, Order
 from datetime import datetime, timedelta
 from .forms import ProductForm
 from django.core.files.storage import FileSystemStorage
+import logging
 
+logger = logging.getLogger(__name__)
 
 
 def index(request):
@@ -43,6 +45,9 @@ def add_product(request):
             quantity = form.cleaned_data['quantity']
             # created_at = form.created_at['created_at']
             image = form.cleaned_data['image']
+            logger.info(f'Получили {name=},'
+                        f'{description=},'
+                        f'{price= }, {quantity=}.')
             fs = FileSystemStorage()
             fs.save(image.name, image)
             product = Product(name=name, description=description,
