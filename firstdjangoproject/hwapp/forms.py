@@ -17,4 +17,4 @@ class ProductForm(forms.Form):
     # created_at = forms.DateField(initial=datetime.date.today,
     #                              widget=forms.DateInput(attrs={'class': 'form-control'
     #                                  , 'type': 'date'}))
-    image = forms.ImageField()
+    image = forms.ImageField(widget=forms.FileInput(attrs={'class': 'form-control'}))

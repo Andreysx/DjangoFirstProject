@@ -1,6 +1,11 @@
 from django.urls import path
 from . import views
 
+
+
+app_name = 'semminar_1app'
+
+
 urlpatterns = [
     path('', views.index, name='index'),
     path('coin/<int:amount_flips>', views.coin, name='coin'),

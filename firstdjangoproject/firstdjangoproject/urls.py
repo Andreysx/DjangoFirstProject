@@ -23,4 +23,5 @@ urlpatterns = [
     path('semminar1/', include('semminar_1app.urls')),
     path('semminar2/', include('semminar2.urls')),
     path('hw/', include('hwapp.urls')),
+    path('users/', include('users.urls')),
 ]
